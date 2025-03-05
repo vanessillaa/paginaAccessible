@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival HardDance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Festival HardDance</h1>
+        <img src="https://cdn.prod.website-files.com/60913b3561e345d4b06a9472/673618ca86a05ee0c613037c_ITERATION%20copy.jpg" alt="Cartell oficial del Festival HardDance">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#programa">Programa</a></li>
+            <li><a href="#inscripcio">Inscripció</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="programa">
+            <h2>Programa</h2>
+            <div class="programa-container">
+                <img src="https://static.nationalgeographic.es/files/styles/image_3200/public/diwali-lanterns-rts2t3o5.jpg?w=1900&h=1283" alt="Imatge d'un concert en viu durant l'esdeveniment">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Hora</th>
+                            <th scope="col">Activitat</th>
+                            <th scope="col">Lloc</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>10:00</td>
+                            <td>Inauguració</td>
+                            <td>Auditori</td>
+                        </tr>
+                        <tr>
+                            <td>12:00</td>
+                            <td>Concert en viu</td>
+                            <td>Escenari Principal</td>
+                        </tr>
+                        <tr>
+                            <td>14:00</td>
+                            <td>Freestyle</td>
+                            <td>Escenari Central</td>
+                        </tr>
+                        <tr>
+                            <td>16:00</td>
+                            <td>Meeting amb artistes</td>
+                            <td>Sala Conferències</td>
+                        </tr>
+                        <tr>
+                            <td>18:00</td>
+                            <td>Dance session</td>
+                            <td>Pavelló</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="inscripcio">
+            <h2>Inscripció</h2>
+            <form>
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" required>
+                <br>
+                <label for="email">Correu electrònic:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <fieldset>
+                    <legend>Selecció d'entrada</legend>
+                    <div class="radio-group">
+                        <label for="general">
+                            <input type="radio" id="general" name="entrada" value="general"> General
+                        </label>
+                        <label for="vip">
+                            <input type="radio" id="vip" name="entrada" value="vip"> VIP
+                        </label>
+                    </div>
+                </fieldset>
+                <br>
+                <button type="submit">Registrar-se</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Festival HardDance</p>
+    </footer>
+</body>
+</html>
